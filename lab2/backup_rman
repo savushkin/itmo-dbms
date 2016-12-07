@@ -1,0 +1,11 @@
+connect target /
+shutdown immediate;
+startup mount;
+backup incremental level 1 database;
+sql 'alter database archivelog';
+alter database open;
+backup archivelog all;
+shutdown;
+startup mount;
+alter database open;
+exit;

@@ -1,0 +1,7 @@
+connect target /
+shutdown abort;
+startup force mount;
+restore database;
+recover database;
+alter database open;
+exit;
