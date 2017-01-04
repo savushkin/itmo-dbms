@@ -1,0 +1,5 @@
+db_unique_name=ASM_182190
+_asm_allow_only_raw_disks=false
+asm_power_limit=6
+ASM_DISKSTRING='/u01/famoushamster/*', '/u01/carelessdog/*', '/u01/youngpuppy/*', '/u01/unluckypig/*'
+instance_type=asm
