@@ -15,7 +15,7 @@ export ORACLE_SID=+ASM
 export ORACLE_HOME=/u01/app/11.2.0/grid
 export PATH=$PATH:$ORACLE_HOME/bin
 
-/u01/app/11.2.0/grid/bin$ ./crsctl start resource /u01/app/11.2.0/grid/bin/ora.cssd
+cd /u01/app/11.2.0/grid/bin && ./crsctl start resource ora.cssd
 
 srvctl add asm
 srvctl config asm
